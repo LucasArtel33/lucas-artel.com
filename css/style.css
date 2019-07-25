@@ -181,32 +181,42 @@ body{
 #sass{width: 70%;}
 #bootstrap{width: 50%;}
 #js{width: 60%;}
-#jquery{width: ;50%}
+#jquery{width:50%;}
 #php{width: 75%;}
 #sql{width: 75%;}
 #symfony{width: 60%;}
 #wordpress{width: 30%;}
 #prestashop{width: 25%;}
 
+.competenceItemTitle{
+    padding: 1%;
+}
+.competenceItemContent{
+    padding: 1% 0.5%;
+}
+.downArrow{
+    width: 10%;
+    margin: auto 0 auto 2%;
+}
+.downArrow2{
+    width: 35%;
+    margin: auto 0 auto 15%;
+}
 .competenceCategorie{
-    margin: 3% auto;
     width: fit-content;
     color: #DBE8F9;
     font-size: 1.2rem;
+    text-wrap: normal;
+}
+.competenceCategorieTitle{
+    width: fit-content;
+    display: flex;
+    margin: 3% auto;
     background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
     rgba(250, 97, 33, 0.5) 10%, transparent 10.01%) no-repeat;
     background-size: 100% 100%;
     transition: background-size .3s;
 }
-
-.competenceCategorie:hover{
+.competenceCategorieTitle:hover{
     background-size: 0% 100%;
-}
-
-.competenceItemTitle{
-    padding: 1%;
-}
-
-.competenceItemContent{
-    padding: 1% 0.5%;
 }
