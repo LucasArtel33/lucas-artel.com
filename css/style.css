@@ -183,13 +183,11 @@ body{
 .downArrow{
     width: 10%;
     margin: auto 0 auto 2%;
-    display: none;
 }
 
 .downArrow2{
     width: 35%;
     margin: auto 0 auto 15%;
-    display: none;
 }
 .competenceCategorie{
     width: fit-content;
@@ -208,20 +206,8 @@ body{
 }
 .competenceCategorieTitle:hover{
     background-size: 100% 100%;
+    cursor: pointer;
 }
-.competenceCategorieTitle:hover .downArrow{
-    display: block;
-    animation: fadein 2s;
-}
-.competenceCategorieTitle:hover .downArrow2{
-    display: block;
-    animation: fadein 1s;
-}
-@keyframes fadein {
-    from {opacity:0;}
-    to {opacity:1;}
-}
-
 .competenceBottom{
     display: flex;
 }
@@ -284,4 +270,118 @@ body{
     margin: auto;
     width: fit-content;
     vertical-align: center;
+}
+/*Aside*/
+.aside{
+    z-index: 99999;
+    float: left;
+    width:15%;
+    padding: 0 2%;
+    height: 100vh;
+    background-color: #A0AEC1;
+    position: fixed;
+}
+.about{
+    margin: 10% 0;
+}
+.about h3{
+    color: #627894;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    line-height: 3rem;
+    background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
+    rgba(250, 97, 33, 0.5) 8%, transparent 8.01%) no-repeat;
+    background-size: 20% 100%;
+}
+.about p{
+    color: #fff;
+}
+.cv{
+    width: fit-content;
+    padding: 3% 7%;
+    background-color: #FA6121;
+    border: 1px solid #FA6121;
+    display: block;
+    margin: auto;
+}
+.cv a{
+    text-decoration: none;
+    color: #fff;
+}
+.cv:hover {
+    border: 1px solid #627894;
+    background-color: transparent;
+    transition: background-color .2s, border .2s;
+}
+.cv:hover a{
+    color: #627894;
+}
+.navAside h3{
+    color: #627894;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    line-height: 3rem;
+    background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
+    rgba(250, 97, 33, 0.5) 8%, transparent 8.01%) no-repeat;
+    background-size: 20% 100%;
+}
+.navAside a{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
+    rgba(250, 97, 33, 0.5) 10%, transparent 10.01%) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.navAside a:hover{
+    color:#466289;
+    background-size: 100% 100%;
+}
+.navAside{
+    display: block;
+    margin: 10% 0;
+}
+
+.address{
+    display: flex;
+    margin: 5% 0;
+    color: #fff;
+}
+.address img{
+    width: 8%;
+    height: 8%;
+    margin-right: 5%;
+}
+.telephone{
+    display: flex;
+    margin: 5% 0;
+    color: #fff;
+
+}
+.telephone img{
+    width: 8%;
+    height: auto;
+    margin-right: 5%;
+}
+.mail{
+    display: flex;
+    margin: 5% 0;
+    color: #fff;
+}
+.mail img{
+    width: 8%;
+    height: auto;
+    margin-right: 5%;
+}
+
+.test{
+    width: 3%;
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    z-index: 9999;
+}
+.test:hover{
+    transform: rotate(90deg);
+    transition: transform .5s;
 }
