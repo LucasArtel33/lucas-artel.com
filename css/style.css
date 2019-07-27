@@ -54,7 +54,9 @@ body{
     top: 60vh;
     left: 10vw;
     color: white ;
-    width: fit-content;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
 }
 .textHome h1{
     font-size: 1.7rem;
@@ -104,11 +106,9 @@ body{
     transform: translateX(-50%);
 }
 @keyframes scroll {
-
     0%, 20% {
         transform: translateY(0) scaleY(1);
     }
-
     100% {
         transform: translateY(36px) scaleY(2);
         opacity: 0;
@@ -130,7 +130,9 @@ body{
     font-size: 2.5rem;
     display: block;
     margin: auto;
-    width: fit-content;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
     vertical-align: center;
 }
 .competenceProgress{
@@ -190,13 +192,17 @@ body{
     margin: auto 0 auto 15%;
 }
 .competenceCategorie{
-    width: fit-content;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
     color: #466289;
     font-size: 1.2rem;
     text-wrap: normal;
 }
 .competenceCategorieTitle{
-    width: fit-content;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
     display: flex;
     margin: 3% auto;
     background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
@@ -248,12 +254,31 @@ body{
     margin: 2% 20%;
     font-size: 1.2rem;
 }
-.svgBottomCompetence{
+.svgBottom{
     margin-bottom: -2px;
 }
 .competenceGlobal{
     margin-bottom: 3%;
 }
+.cv{
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
+    padding: 2% 5%;
+    background-color: #FA6121;
+    border: 1px solid #FA6121;
+    display: block;
+    margin: 5% auto;
+    text-decoration: none;
+    color: #fff;
+}
+.cv:hover {
+    border: 1px solid #627894;
+    background-color: transparent;
+    transition: background-color .2s, border .2s;
+    color: #627894;
+}
+
 /*Parcours*/
 
 .parcoursTitle{
@@ -268,23 +293,86 @@ body{
     font-size: 2.5rem;
     display: block;
     margin: auto;
-    width: fit-content;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
     vertical-align: center;
 }
-/*Aside*/
-.cv{
-    width: fit-content;
-    padding: 2% 5%;
-    background-color: #FA6121;
-    border: 1px solid #FA6121;
-    display: block;
-    margin: 5% auto;
-    text-decoration: none;
-    color: #fff;
+
+.periode{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
-.cv:hover {
-    border: 1px solid #627894;
-    background-color: transparent;
-    transition: background-color .2s, border .2s;
-    color: #627894;
+
+.periode li{
+    color: #FA6121;
+    font-size: 1.2rem;
+}
+
+.piscine{
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
+    display: block;
+    margin: auto;
+}
+
+.parcoursItemTitle{
+    font-size: 2rem ;
+    color: #FA6121;
+    margin-bottom: 1%;
+}
+
+.dateParcours{
+    font-style: italic;
+    text-align: end;
+    color: #A0AEC1;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+
+.parcoursItem{
+    font-size: 1.2rem;
+    margin: 1% auto;
+    color: #466289;
+}
+.parcoursContent{
+    margin-bottom: 3%;
+}
+/*Realisation*/
+.realisationTitle{
+    width: 100vw;
+    height: fit-content;
+    min-height: fit-content;
+    background-color: #A0AEC1;
+}
+
+.realisationTitle h2{
+    color: #466289;
+    font-size: 2.5rem;
+    display: block;
+    margin: auto;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
+    vertical-align: center;
+}
+/*contact*/
+.contactTitle{
+    width: 100vw;
+    height: fit-content;
+    min-height: fit-content;
+    background-color: #466289;
+}
+
+.contactTitle h2{
+    color: #fff;
+    font-size: 2.5rem;
+    display: block;
+    margin: auto;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content;
+    vertical-align: center;
 }
