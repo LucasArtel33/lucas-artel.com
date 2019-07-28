@@ -2,173 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a821607-ffdb-4537-9522-a11dc5fe71b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_partial/_competence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_partial/_contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_partial/_parcours.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_partial/_realisation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_competence.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_parcours.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_progressBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_realisation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/_scrollAnimation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/css/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/images/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/images/img-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/animsition/css/animsition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/animsition/css/animsition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/animsition/js/animsition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/animsition/js/animsition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/countdowntime/countdowntime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/daterangepicker/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFrom_v17/vendor/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aside.html" beforeDir="false" afterPath="$PROJECT_DIR$/aside.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/CV_lucas_artel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/doc/CV_lucas_artel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MySQL.svg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/MySQL.svg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/address.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/avis.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bootstrap-png-bootstrap-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/bootstrap-png-bootstrap-512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/css.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/down-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/down-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/down-arrow2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/down-arrow2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/html.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/javascript.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/logoLA.ai" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/logoLA.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/logoLA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/logoLA.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/logoLA.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/logoLA.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/logo_blanc.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/logo_blanc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/logo_noir.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo/logo_noir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/php.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/php.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/sass.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/symfony_black_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/symfony_black_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/symfony_white_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/symfony_white_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/smoothScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,6 +20,33 @@
     <splitter split-orientation="horizontal" split-proportion="0.8696498">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="179">
+                  <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/smoothScroll.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/svg.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/style.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -194,7 +56,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_partial/_competence.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="410">
@@ -226,6 +88,7 @@
       <find>width: fit-content;</find>
       <find>$orange</find>
       <find>#FA6121</find>
+      <find>#FFB739</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -250,7 +113,6 @@
         <option value="$PROJECT_DIR$/_partial/_parcours.html" />
         <option value="$PROJECT_DIR$/_partial/_realisation.html" />
         <option value="$PROJECT_DIR$/_partial/_contact.html" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/sass/_global.scss" />
         <option value="$PROJECT_DIR$/assets/sass/_scrollAnimation.scss" />
@@ -264,6 +126,8 @@
         <option value="$PROJECT_DIR$/assets/sass/variable.scss" />
         <option value="$PROJECT_DIR$/assets/sass/_home.scss" />
         <option value="$PROJECT_DIR$/_partial/_competence.html" />
+        <option value="$PROJECT_DIR$/assets/js/smoothScroll.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -300,6 +164,12 @@
               <item name="monsite" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,12 +223,12 @@
       <workItem from="1563984631217" duration="1206000" />
       <workItem from="1563990685287" duration="2785000" />
       <workItem from="1564039915861" duration="18122000" />
-      <workItem from="1564119675166" duration="20923000" />
+      <workItem from="1564119675166" duration="21829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68255000" />
+    <option name="totallyTimeSpent" value="69161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -377,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43762377" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4369863" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -388,24 +258,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/test.html</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/reset.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -463,18 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-          <folding>
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -507,13 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -570,6 +404,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="110" column="17" lean-forward="true" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/smoothScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
         </state>
       </provider>
     </entry>

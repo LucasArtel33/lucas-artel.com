@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
 	<header>
 		<div>
 			<nav class="menu">
@@ -70,7 +69,6 @@
             include '_partial/_competence.html';
         ?>
 	</section>
-
 	<section id="parcours">
         <?php
         include '_partial/_parcours.html';
@@ -92,65 +90,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!--fonction smoothScroll-->
-	<script type="text/javascript">
-		jQuery(document).ready(function($){
-			$('a.smoothScroll').click(function(e){
-				e.preventDefault();
-				$id = $(this).attr('href');
-				$('body,html').animate({
-					scrollTop: $($id).offset().top -20
-				}, 750);
-			});
-		});
-	</script>
+    <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
 	<!--fonction slider competence-->
-	<script type="text/javascript">
-		$(function(){
-			$('#frontTitle').on('click touch', function(e){
-				$('#frontContent').slideToggle();
-				$('#downArrowFront').slideToggle();
-				if ($("#cmsContent").is(":visible")){
-					$('#cmsContent').slideToggle();
-					$('#downArrowCms').slideToggle();
-				}
-				if ($("#backContent").is(":visible")){
-					$('#backContent').slideToggle();
-					$('#downArrowBack').slideToggle();
-				}
-			});
-		});
-	</script>
-	<script type="text/javascript">
-		$(function(){
-			$('#backTitle').on('click touch', function(e){
-				if ($("#frontContent").is(":visible")){
-					$('#frontContent').slideToggle();
-					$('#downArrowFront').slideToggle();
-				}
-				if ($("#cmsContent").is(":visible")){
-					$('#cmsContent').slideToggle();
-					$('#downArrowCms').slideToggle();
-				}
-				$('#backContent').slideToggle();
-				$('#downArrowBack').slideToggle();
-			});
-		});
-	</script>
-	<script type="text/javascript">
-		$(function(){
-			$('#cmsTitle').on('click touch', function(e){
-				$('#cmsContent').slideToggle();
-				$('#downArrowCms').slideToggle();
-				if ($("#backContent").is(":visible")){
-					$('#backContent').slideToggle();
-					$('#downArrowBack').slideToggle();
-				}
-				if ($("#frontContent").is(":visible")){
-					$('#frontContent').slideToggle();
-					$('#downArrowFront').slideToggle();
-				}
-			});
-		});
-	</script>
+	<script type="text/javascript" src="assets/js/sliderCompetence.js"></script>
 </body>
 </html>
