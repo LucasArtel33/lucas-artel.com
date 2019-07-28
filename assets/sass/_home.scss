@@ -1,0 +1,68 @@
+.logoHeader{
+  width: 20%;
+}
+.menu{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+  position: absolute;
+}
+.desktopMenu{
+  color: $orange;
+  display: flex;
+  justify-content: space-between;
+}
+.desktopMenu li{
+  margin: auto;
+  font-size: 1.3rem;
+}
+.menu a{
+  color: $orange;
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
+          rgba(250, 97, 33, 0.5) 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size .3s;
+}
+.menu a:hover{
+  color:$jaune;
+  background-size: 100% 100%;
+}
+
+.imgBack{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/avis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+.textHome{
+  z-index: 10;
+  position: relative;
+  top: 60vh;
+  left: 10vw;
+  color: white ;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+}
+.textHome h1{
+  font-size: 1.7rem;
+}
+
+.textHome p{
+  font-style: italic;
+  text-align: end;
+}
+
+.svgHome{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 999;
+  margin-bottom: -2px;
+}

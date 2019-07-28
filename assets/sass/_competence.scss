@@ -1,0 +1,142 @@
+.competence{
+  background-color: #A0AEC1;
+}
+.competenceTitle{
+  width: 100vw;
+  height: fit-content;
+  min-height: fit-content;
+  background-color: #fff;
+}
+.competenceTitle h2{
+  color: #FA6121;
+  font-size: 2.5rem;
+  display: block;
+  margin: auto;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  vertical-align: center;
+}
+.competenceProgress{
+  width: 100%;
+  border-bottom: 1px solid #FA6121;
+  padding-bottom: 5%;
+}
+.competenceProgress{
+  margin-bottom: 5%;
+}
+/*progress bar*/
+.myProgress {
+  width: 100%;
+  background-color: #466289;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  border: 1px solid #466289;
+}
+.myBar {
+  height: 30px;
+  background-color: #DBE8F9;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+}
+.myBar p {
+  color: #466289;
+  width: fit-content;
+  line-height: 2;
+  margin: 0 20px;
+  font-weight: bold;
+}
+.myProgress:last-child{
+  margin-bottom: 0;
+}
+.downArrow{
+  width: 10%;
+  margin: auto 0 auto 2%;
+}
+.downArrow2{
+  width: 35%;
+  margin: auto 0 auto 15%;
+}
+.competenceCategorie{
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  color: #466289;
+  font-size: 1.2rem;
+  text-wrap: normal;
+}
+.competenceCategorieTitle{
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  display: flex;
+  margin: 3% auto;
+  background: linear-gradient(to top, rgba(250, 97, 33, 0.7) 0%,
+          rgba(250, 97, 33, 0.5) 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .3s;
+}
+.competenceCategorieTitle:hover{
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.competenceBottom{
+  display: flex;
+}
+.competenceBottomGauche{
+  width: 50%;
+  border-right: 1px solid #FA6121;
+}
+.competenceItem{
+  margin-bottom: 2%;
+}
+.competenceItemTitle{
+  font-size: 2rem;
+  color: #466289;
+  margin-bottom: 1%;
+}
+.competenceItemContent{
+  width: 100%;
+  color: #DBE8F9;
+  font-size: 1.2rem;
+}
+.competenceBottomDroite{
+  width: 50%;
+  border-left: 1px solid #FA6121;
+}
+.outilTitle{
+  font-size: 2rem;
+  color: #466289;
+  margin:1% 10% ;
+}
+.outilItem{
+  width: 100%;
+  color: #DBE8F9;
+  list-style: circle;
+  margin: 2% 20%;
+  font-size: 1.2rem;
+}
+.svgBottom{
+  margin-bottom: -2px;
+}
+.competenceGlobal{
+  margin-bottom: 3%;
+}
+.cv{
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  padding: 2% 5%;
+  background-color: #FA6121;
+  border: 1px solid #FA6121;
+  display: block;
+  margin: 5% auto;
+  text-decoration: none;
+  color: #fff;
+}
+.cv:hover {
+  border: 1px solid #627894;
+  background-color: transparent;
+  transition: background-color .2s, border .2s;
+  color: #627894;
+}

@@ -1,0 +1,59 @@
+.parcoursTitle{
+  width: 100vw;
+  height: fit-content;
+  min-height: fit-content;
+  background-color: #466289;
+}
+
+.parcoursTitle h2{
+  color: #DBE8F9;
+  font-size: 2.5rem;
+  display: block;
+  margin: auto;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  vertical-align: center;
+}
+
+.periode{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.periode li{
+  color: #FA6121;
+  font-size: 1.2rem;
+}
+
+.piscine{
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  display: block;
+  margin: auto;
+}
+
+.parcoursItemTitle{
+  font-size: 2rem ;
+  color: #FA6121;
+  margin-bottom: 1%;
+}
+
+.dateParcours{
+  font-style: italic;
+  text-align: end;
+  color: #A0AEC1;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+}
+
+.parcoursItem{
+  font-size: 1.2rem;
+  margin: 1% auto;
+  color: #466289;
+}
+.parcoursContent{
+  margin-bottom: 3%;
+}

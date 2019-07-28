@@ -1,0 +1,17 @@
+.realisationTitle{
+  width: 100vw;
+  height: fit-content;
+  min-height: fit-content;
+  background-color: #A0AEC1;
+}
+
+.realisationTitle h2{
+  color: #466289;
+  font-size: 2.5rem;
+  display: block;
+  margin: auto;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content;
+  vertical-align: center;
+}
