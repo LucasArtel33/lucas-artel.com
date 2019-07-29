@@ -1,5 +1,5 @@
 .logoHeader{
-  width: 20%;
+  width: 100%;
 }
 .menu{
   width: 100%;
@@ -12,9 +12,16 @@
   display: flex;
   justify-content: space-between;
 }
-.desktopMenu li{
+.liA{
+  width: calc(100%/5);
   margin: auto;
+  text-align: center;
   font-size: 1.3rem;
+}
+
+.lImg{
+  width: calc(100%/5);
+  margin: auto;
 }
 .menu a{
   color: $orange;

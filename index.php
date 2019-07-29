@@ -23,47 +23,30 @@
 					<li>Contact</li>
 				</ul>
 				<ul class="desktopMenu">
-					<li>
+					<li class="liA">
 						<a class="smoothScroll" href="#competence"> Mes compétences </a>
 					</li>
-					<li>
+					<li class="liA">
 						<a class="smoothScroll" href="#parcours"> Mon parcours </a>
 					</li>
-					<img src="assets/img/logo/logo_noir.png" alt="Lucas ARTEL" class="logoHeader" >
-					<li>
+                    <li class="lImg">
+					    <img src="assets/img/logo/logo_noir.png" alt="Lucas ARTEL" class="logoHeader" >
+                    </li>
+					<li class="liA">
 						<a class="smoothScroll" href="#realisation"> Mes Réalisations</a>
 					</li>
-					<li>
-						<a class="smoothScroll" href=""> Contact </a>
+					<li class="liA">
+						<a class="smoothScroll" href="#contact"> Contactez-moi </a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<div class="imgBack">
-		<div class="textHome">
-			<h1>
-				Je m'appelle Lucas Artel. <br>
-				Je suis développeur web fullstack junior à Bordeaux.
-			</h1>
-			<p>PHP, Symfony, Sass, Bootstrap, Javascript ...</p>
-		</div>
-		<div class="svgHome">
-			<svg viewBox="0 0 200 15">
-				<polygon points="200 15, 0 15, 200 0" fill="#fff"/>
-			</svg>
-		</div>
-		<div class="scrollBtn">
-			<a class="scroll-link smoothScroll" href="#competence">
-				<svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
-					<g fill="none" fill-rule="evenodd">
-						<rect width="70" height="118" x="1.5" y="1.5" stroke="#000" stroke-width="3" rx="36"/>
-						<circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#000"/>
-					</g>
-				</svg>
-			</a>
-		</div>
-	</div>
+	<section class="imgBack">
+        <?php
+        include '_partial/_home.html';
+        ?>
+	</section>
 	<section id="competence" class="competence">
         <?php
             include '_partial/_competence.html';
@@ -89,9 +72,6 @@
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!--fonction smoothScroll-->
-    <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
-	<!--fonction slider competence-->
-	<script type="text/javascript" src="assets/js/sliderCompetence.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

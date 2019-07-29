@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .wrapper{
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .realisationContent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .realisationContent div:hover{
+        opacity: 0.5;
+    }
+    .realisationContent div{
+        border: 1px solid red;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    .realisationContent div img{
+        width: 100%;
+    }
+</style>
+<body>
+<div class="wrapper realisationContent">
+    <div data-id="monSite" class="div_move sitePerso" style="width: 49%">
+        <img class="imgSitePerso" src="assets/img/sitePerso.png" alt="Page d'accueil du site lucas-artel.com">
+        <p id="txt" style="display: none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
+            consequuntur deserunt dignissimos hic laborum maxime nisi numquam odio possimus quas quidem quisquam,
+            sapiente soluta sunt suscipit totam!</p>
+    </div>
+    <div data-id="hk" class="div_move helloKoraliki" style="width: 49%">
+        <img class="imgHelloKoraliki" src="assets/img/helloKoraliki.png" alt="Page d'accueil du site Hello Koraliki">
+        <p class="txt" style="display: none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
+            consequuntur deserunt dignissimos hic laborum maxime nisi numquam odio possimus quas quidem quisquam,
+            sapiente soluta sunt suscipit totam!</p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $('.div_move').on('click', function(e) {
+        var $id = (this).data('id');
+        $(this).on('click touch', function(e){
+            if ($id.style.width == '49%') {
+                $($id).css('width', '100%');
+               // $().slideToggle();
+            }
+            else{
+                $(this).css('width', '49%');
+                //$('#txt').slideToggle();
+            }
+        });
+    });
+
+    // $(function(){
+    //     var $test = document.getElementById("test");
+    //     $('#test').on('click touch', function(e){
+    //         if ($test.style.width == '49%') {
+    //             $('#test').css('width', '100%');
+    //             $('#txt').slideToggle();
+    //         }
+    //         else{
+    //             $('#test').css('width', '49%');
+    //             $('#txt').slideToggle();
+    //         }
+    //     });
+    // });
+</script>
+</body>
+</html>

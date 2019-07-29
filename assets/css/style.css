@@ -9,7 +9,7 @@ body {
 }
 
 .logoHeader {
-  width: 20%;
+  width: 100%;
 }
 
 .menu {
@@ -25,9 +25,16 @@ body {
   justify-content: space-between;
 }
 
-.desktopMenu li {
+.liA {
+  width: calc(100%/5);
   margin: auto;
+  text-align: center;
   font-size: 1.3rem;
+}
+
+.lImg {
+  width: calc(100%/5);
+  margin: auto;
 }
 
 .menu a {
@@ -425,6 +432,22 @@ body {
   /* Firefox/Gecko */
   width: -webkit-max-content;
   vertical-align: center;
+}
+
+.realisationContent {
+  display: flex;
+}
+
+.realisationContent div:hover {
+  opacity: 0.5;
+}
+
+.realisationContent div {
+  width: 50%;
+}
+
+.realisationContent div img {
+  width: 100%;
 }
 
 .contactTitle {
