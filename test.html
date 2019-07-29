@@ -17,11 +17,10 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .realisationContent div:hover{
+    .w50:hover{
         opacity: 0.5;
     }
     .realisationContent div{
-        border: 1px solid red;
         -webkit-transition: all .5s;
         -moz-transition: all .5s;
         -ms-transition: all .5s;
@@ -31,18 +30,31 @@
     .realisationContent div img{
         width: 100%;
     }
+    .w100{
+        width: 100%;
+    }
+    .w50{
+        width: 50%;
+    }
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+
 </style>
 <body>
 <div class="wrapper realisationContent">
-    <div data-id="monSite" class="div_move sitePerso" style="width: 49%">
+    <div class="div_move w50">
         <img class="imgSitePerso" src="assets/img/sitePerso.png" alt="Page d'accueil du site lucas-artel.com">
-        <p id="txt" style="display: none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
+        <p class="hide xt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
             consequuntur deserunt dignissimos hic laborum maxime nisi numquam odio possimus quas quidem quisquam,
             sapiente soluta sunt suscipit totam!</p>
     </div>
-    <div data-id="hk" class="div_move helloKoraliki" style="width: 49%">
+    <div class="div_move w50">
         <img class="imgHelloKoraliki" src="assets/img/helloKoraliki.png" alt="Page d'accueil du site Hello Koraliki">
-        <p class="txt" style="display: none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
+        <p class="hide txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores blanditiis consectetur
             consequuntur deserunt dignissimos hic laborum maxime nisi numquam odio possimus quas quidem quisquam,
             sapiente soluta sunt suscipit totam!</p>
     </div>
@@ -50,33 +62,19 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
-    $('.div_move').on('click', function(e) {
-        var $id = (this).data('id');
-        $(this).on('click touch', function(e){
-            if ($id.style.width == '49%') {
-                $($id).css('width', '100%');
-               // $().slideToggle();
+    $(function(){
+        $('.div_move').on('click touch', function(e) {
+            if($(this).hasClass('w50')){
+                $(this).addClass('w100').removeClass('w50');
+                $(this).find('p').addClass('show').removeClass('hide');
             }
-            else{
-                $(this).css('width', '49%');
-                //$('#txt').slideToggle();
+            else {
+                $(this).addClass('w50').removeClass('w100');
+                $(this).find('p').addClass('hide').removeClass('show');
             }
         });
     });
 
-    // $(function(){
-    //     var $test = document.getElementById("test");
-    //     $('#test').on('click touch', function(e){
-    //         if ($test.style.width == '49%') {
-    //             $('#test').css('width', '100%');
-    //             $('#txt').slideToggle();
-    //         }
-    //         else{
-    //             $('#test').css('width', '49%');
-    //             $('#txt').slideToggle();
-    //         }
-    //     });
-    // });
 </script>
 </body>
 </html>

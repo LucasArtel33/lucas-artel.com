@@ -321,6 +321,13 @@ body {
   margin-bottom: 2%;
 }
 
+.titrePro {
+  font-weight: bolder;
+  color: #466289;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+}
+
 .parcoursItem {
   font-size: 1.2rem;
   margin: 1% auto;
@@ -436,18 +443,65 @@ body {
 
 .realisationContent {
   display: flex;
-}
-
-.realisationContent div:hover {
-  opacity: 0.5;
-}
-
-.realisationContent div {
-  width: 50%;
+  flex-wrap: wrap;
 }
 
 .realisationContent div img {
   width: 100%;
+}
+
+.w50:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.w100 {
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.w50 {
+  width: 50%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.txt {
+  color: #A0AEC1;
+  font-size: 1.2rem;
+}
+
+.technos {
+  font-style: italic;
+  color: #466289;
+  margin: 2% 0;
+}
+
+.btnLink {
+  text-decoration: none;
+  color: #A0AEC1;
+  font-style: italic;
+  text-align: end;
+  margin-bottom: 2%;
+}
+
+.btnLink:hover {
+  color: #FA6121;
 }
 
 .contactTitle {

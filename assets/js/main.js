@@ -56,3 +56,19 @@ $(function(){
     });
 });
 
+//Realisation
+
+$(function(){
+    $('.div_move').on('click touch', function(e) {
+        if($(this).hasClass('w50')){
+            $(this).addClass('w100').removeClass('w50');
+            $(this).find('p').addClass('show').removeClass('hide');
+            $(this).find('a').addClass('show').removeClass('hide');
+        }
+        else {
+            $(this).addClass('w50').removeClass('w100');
+            $(this).find('p').addClass('hide').removeClass('show');
+            $(this).find('a').addClass('hide').removeClass('show');
+        }
+    });
+});
