@@ -1,3 +1,8 @@
+#contact{
+  background-color: #A0AEC1;
+  color: #466289;
+  padding-bottom: 5% ;
+}
 .contactTitle{
   width: 100vw;
   height: fit-content;
@@ -14,4 +19,54 @@
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content;
   vertical-align: center;
+}
+
+.formRow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formRow div{
+  width: 40%;
+}
+
+.formItem{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+
+.formItem label{
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+}
+
+#sujet, #mail, #name{
+  border: #466289;
+  border-radius: 5px;
+  height: 1.2rem;
+}
+
+#message{
+  border: #466289;
+  border-radius: 5px;
+}
+
+#btnContact{
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 15%;
+  margin: auto;
+  color: #466289;
+}
+.alertSuccess{
+  font-size: 2rem;
+  width: fit-content;
+  margin: 0 auto 5%;
+}
+.alertErrors{
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: 0 auto 5%;
+  color: red;
 }

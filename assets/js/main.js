@@ -64,11 +64,16 @@ $(function(){
             $(this).addClass('w100').removeClass('w50');
             $(this).find('p').addClass('show').removeClass('hide');
             $(this).find('a').addClass('show').removeClass('hide');
+            $(this).parent().find('.w50').addClass('hide').removeClass('show');
         }
         else {
             $(this).addClass('w50').removeClass('w100');
             $(this).find('p').addClass('hide').removeClass('show');
-            $(this).find('a').addClass('hide').removeClass('show');
+            $(this).find('a').addClass('hide').removeClass('show')
+            $(this).parent().find('.w50').addClass('show').delay(500).queue(function() {
+                $(this).removeClass('hide').dequeue();
+            });
         }
     });
 });
+
